@@ -5,18 +5,19 @@
   
 
   
-  <title>使用hexo创建一篇博客并部署到GitHub page | Hexo</title>
+  <title>css学习笔记 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Hexo是什么？Hexo是一款使用Node.js编写的静态站点生成框架。通过Hexo，可以直接使用markdown语法来撰写博客 Hexo如何安装？ 安装依赖  Node.js Git   安装Hexo 1$ npm i hexo-cli -g  查询安装结果 1$ hexo -v    Hexo提供的功能 建站">
+  <meta name="description" content="###概述 css语言是用于定义html内容在浏览器内的显示样式。使用它的一个好处是通过定义某个样式，可以让不同网页位置的文字有着统一的样式 语法 选择符+{声明}  选择符指网页中要应用样式的元素  声明组成：属性+值  注释语法：&#x2F;…&#x2F;   ###css代码编写位置  内联式：将css代码直接写在现有HTML标签中的style属性 嵌入式：将css代码写在标签之间，并且嵌入式样式一般写在hea">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用hexo创建一篇博客并部署到GitHub page">
-<meta property="og:url" content="http://example.com/2020/09/23/article-title/index.html">
+<meta property="og:title" content="css学习笔记">
+<meta property="og:url" content="http://example.com/2020/09/29/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Hexo是什么？Hexo是一款使用Node.js编写的静态站点生成框架。通过Hexo，可以直接使用markdown语法来撰写博客 Hexo如何安装？ 安装依赖  Node.js Git   安装Hexo 1$ npm i hexo-cli -g  查询安装结果 1$ hexo -v    Hexo提供的功能 建站">
+<meta property="og:description" content="###概述 css语言是用于定义html内容在浏览器内的显示样式。使用它的一个好处是通过定义某个样式，可以让不同网页位置的文字有着统一的样式 语法 选择符+{声明}  选择符指网页中要应用样式的元素  声明组成：属性+值  注释语法：&#x2F;…&#x2F;   ###css代码编写位置  内联式：将css代码直接写在现有HTML标签中的style属性 嵌入式：将css代码写在标签之间，并且嵌入式样式一般写在hea">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-09-23T06:44:00.000Z">
-<meta property="article:modified_time" content="2020-09-23T11:15:45.841Z">
+<meta property="article:published_time" content="2020-09-29T12:54:37.000Z">
+<meta property="article:modified_time" content="2020-10-10T02:31:40.126Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="前端开发">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -66,10 +67,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-article-title" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-css学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/09/23/article-title/" class="article-date">
-  <time datetime="2020-09-23T06:44:00.000Z" itemprop="datePublished">2020-09-23</time>
+    <a href="/2020/09/29/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time datetime="2020-09-29T12:54:37.000Z" itemprop="datePublished">2020-09-29</time>
 </a>
     
   </div>
@@ -80,7 +81,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      使用hexo创建一篇博客并部署到GitHub page
+      css学习笔记
     </h1>
   
 
@@ -88,51 +89,114 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Hexo是什么？"><a href="#Hexo是什么？" class="headerlink" title="Hexo是什么？"></a>Hexo是什么？</h2><p>Hexo是一款使用Node.js编写的静态站点生成框架。通过Hexo，可以直接使用markdown语法来撰写博客</p>
-<h2 id="Hexo如何安装？"><a href="#Hexo如何安装？" class="headerlink" title="Hexo如何安装？"></a>Hexo如何安装？</h2><ul>
-<li><p>安装依赖</p>
+        <p>###概述</p>
+<p>css语言是用于定义html内容在浏览器内的显示样式。使用它的一个好处是通过定义某个样式，可以让不同网页位置的文字有着统一的样式</p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><ul>
+<li><p>选择符+{声明}</p>
+</li>
+<li><p>选择符指网页中要应用样式的元素</p>
+</li>
+<li><p>声明组成：属性+值</p>
+</li>
+<li><p>注释语法：/<em>…</em>/</p>
+</li>
+</ul>
+<p>###css代码编写位置</p>
 <ul>
-<li>Node.js</li>
-<li>Git</li>
+<li>内联式：将css代码直接写在现有HTML标签中的style属性</li>
+<li>嵌入式：将css代码写在<style type="text/css"></style>标签之间，并且嵌入式样式一般写在head标签之间</li>
+<li>外部式：将css代码写在一个单独的外部文件中，以.css为扩展名，在head内，使用<link>将css样式文件链接到html文件内。e.g. <link href="xxx.css" rel="stylesheet" type="text/css"/></li>
+<li>优先级：内联式&gt;嵌入式&gt;外部式 （就近原则，越靠近目标标签，就以谁定义为准）</li>
 </ul>
+<p>###选择器</p>
+<ol>
+<li>简单选择器</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>选择器</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>*</td>
+<td>通用元素选择器，匹配任何元素</td>
+</tr>
+<tr>
+<td>E</td>
+<td>标签选择器，匹配所有使用E标签的元素</td>
+</tr>
+<tr>
+<td>.info</td>
+<td>类选择器，匹配所有class属性中包含info的元素</td>
+</tr>
+<tr>
+<td>#footer</td>
+<td>id选择器，匹配所有id属性等于footer的元素</td>
+</tr>
+</tbody></table>
+<ol start="2">
+<li><p>组合选择器</p>
+<table>
+<thead>
+<tr>
+<th>选择器</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>E,F</td>
+<td>多元素选择器，同时匹配所有E元素或F元素，E和F之间用逗号分隔</td>
+</tr>
+<tr>
+<td>E F</td>
+<td>后代元素选择器，匹配所有属于E元素后代的F元素，E和F之间用空格分隔</td>
+</tr>
+<tr>
+<td>E&gt;F</td>
+<td>子元素选择器，匹配所有E元素的第一个直接子元素F</td>
+</tr>
+<tr>
+<td>E+F</td>
+<td>相邻元素选择器，匹配所有紧随E元素之后的第一个同级元素F</td>
+</tr>
+<tr>
+<td>E～F</td>
+<td>通用兄弟选择器，匹配所有紧随E元素之后的同级元素F</td>
+</tr>
+</tbody></table>
 </li>
-<li><p>安装Hexo</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm i hexo-cli -g</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查询安装结果</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo -v</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h2 id="Hexo提供的功能"><a href="#Hexo提供的功能" class="headerlink" title="Hexo提供的功能"></a>Hexo提供的功能</h2><ul>
-<li>建站</li>
-</ul>
+<li></li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/23/article-title/" data-id="ckfnl277v0000dcqkbgnobzrt" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/09/29/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="ckh3f2noz00009lqkb8ne1ugw" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" rel="tag">前端开发</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2020/09/23/html%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/10/29/%E8%80%83%E8%AF%95%E8%84%91%E7%A7%91%E5%AD%A6%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          html语法学习笔记
+          考试脑科学阅读笔记
         
       </div>
     </a>
   
   
-    <a href="/2020/09/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/09/23/html%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">html语法学习笔记</div>
     </a>
   
 </nav>
